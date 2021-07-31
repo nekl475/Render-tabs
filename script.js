@@ -60,7 +60,7 @@ const link = document.querySelectorAll(`.tab_link`),
     cardLine = document.querySelectorAll(`.tab_mobile-items`);
 
 cardLines = [...cardLine];
-console.log(cardLines[0]);
+
 
 
 first.classList.add(`active`);
@@ -73,7 +73,7 @@ link.forEach((item, index) => {
         e.target.classList.add(`active`);
         document.querySelector(`.active_tab`) && document.querySelector(`.active_tab`).classList.remove(`active_tab`);
         cardLines[index].classList.add(`active_tab`);
-        console.log(index);
+
     });
 
 });

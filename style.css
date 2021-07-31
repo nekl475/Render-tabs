@@ -78,7 +78,7 @@ body {
 }
 
 .active_tab {
-    display: block;
+    display: flex;
 }
 
 @keyframes move {
